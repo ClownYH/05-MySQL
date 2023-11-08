@@ -1,0 +1,19 @@
+/* 서브쿼리 */
+-- query
+
+SELECT 
+	menu_code,
+	menu_price,
+	menu_name,
+	category_code,
+	orderable_status
+FROM
+	tbl_menu
+WHERE
+	category_code = (
+	SELECT
+		category_code
+	FROM
+		tbl_menu
+	WHERE
+		menu_name = '민트미역국');

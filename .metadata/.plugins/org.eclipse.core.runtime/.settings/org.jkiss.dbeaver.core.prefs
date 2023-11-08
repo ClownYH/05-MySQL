@@ -1,9 +1,13 @@
+dataformat.profile.language=ko
 dialog.default.folder=C\:\\dev\\05-MySQL\\General\\Scripts
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 sample.database.canceled=true
+sql.format.keywordCase=UPPER
+sql.proposals.insert.table.alias=NONE
+swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1699346919162
+ui.auto.update.check.time=1699402854163
 ui.render.boolean.style.checked.align=CENTER
 ui.render.boolean.style.checked.color=default
 ui.render.boolean.style.checked.font=NORMAL

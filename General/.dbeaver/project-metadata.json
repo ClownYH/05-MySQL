@@ -1,1 +1,1 @@
-{"resources":{}}
+{"resources":{"Scripts/06_join.sql":{"default-datasource":"mysql8-18ba8fe8326-2adcec670c17718c","default-catalog":"menudb"},"Scripts/07_group_by.sql":{"default-datasource":"mysql8-18ba8fe8326-2adcec670c17718c","default-catalog":"menudb"},"Scripts/08_subquery.sql":{"default-datasource":"mysql8-18ba8fe8326-2adcec670c17718c","default-catalog":"menudb"}}}
