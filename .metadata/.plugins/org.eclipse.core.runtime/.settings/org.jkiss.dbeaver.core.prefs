@@ -2,6 +2,7 @@ dataformat.profile.language=ko
 dialog.default.folder=C\:\\dev\\05-MySQL\\General\\Scripts
 driver.selector.orderBy=score
 eclipse.preferences.version=1
+resultset.presentation.active=spreadsheet
 sample.database.canceled=true
 sql.format.keywordCase=UPPER
 sql.proposals.insert.table.alias=NONE

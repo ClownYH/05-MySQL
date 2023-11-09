@@ -1,0 +1,49 @@
+/* SET OPERATORS */
+
+/* UNION */
+SELECT
+	menu_code, 
+	menu_name,
+	menu_price,
+	category_code,
+	orderable_status
+FROM
+	tbl_menu
+WHERE
+	category_code = 10
+UNION # 쿼리를 합쳐줌, 중복된 값은 제외하고 출력한다.
+SELECT 
+	menu_code,
+	menu_name,
+	menu_price,
+	category_code,
+	orderable_status
+FROM
+	tbl_menu 
+WHERE 
+	menu_price < 9000;
+	
+-- union all
+SELECT
+	menu_code, 
+	menu_name,
+	menu_price,
+	category_code,
+	orderable_status
+FROM
+	tbl_menu
+WHERE
+	category_code = 10
+UNION ALL # 중복 값을 제거하지 않고 합쳐서 출력
+SELECT 
+	menu_code,
+	menu_name,
+	menu_price,
+	category_code,
+	orderable_status
+FROM
+	tbl_menu 
+WHERE 
+	menu_price < 9000;
+	
+-- inner join에 subquery 사용하기

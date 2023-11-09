@@ -1,0 +1,95 @@
+/* DML(Date Manipulation Language) */
+
+-- insert, update, delete, select(dql)
+-- 데이터 조작언어, 테이블에 값을 삽입하거나, 수정하거나
+-- 삭제하거나, 조회하는 언어
+
+-- 컬럼을 기술하지 않는 경우
+-- 대상 table에 컬럼 순서를 따라간다.
+INSERT INTO tbl_menu 
+		VALUES(
+			NULL, -- menu_code
+			'바나나해장국', -- menu_name
+			8500, -- menu_price
+			4, -- category_code
+			'Y'); -- status
+
+SELECT * FROM tbl_menu;
+
+-- 컬럼을 기술하는 경우
+-- 대상 컬럼에 맞춰 따라간다.
+INSERT INTO tbl_menu 
+			(menu_code,
+			 menu_name,
+			 menu_price,
+			 category_code,
+			 orderable_status)
+		VALUES(
+			NULL, -- menu_code
+			'바나나해장국', -- menu_name
+			8500, -- menu_price
+			4, -- category_code
+			'Y'); -- status
+			
+-- 컬럼의 순서를 변경하는 경우
+-- 순서에 맞게 값을 입력한다.
+INSERT INTO tbl_menu 
+			(menu_code,
+			 menu_name,
+			 menu_price,
+			 category_code,
+			 orderable_status)
+		VALUES(
+			NULL, -- menu_code
+			'바나나해장국', -- menu_name
+			8500, -- menu_price
+			4, -- category_code
+			'Y'); -- status
+			
+-- 값을 한 번에 여러 개 등록하는 경우
+-- value 뒤에 (), 를 추가로 기술하면 된다.
+INSERT INTO tbl_menu 
+VALUES
+(NULL, '참치맛아이스크림', 1700, 12, 'Y'),
+(NULL, '멸치맛아이스크림', 1500, 11, 'Y'),
+(NULL, '소시지맛커피', 2500, 8, 'Y');
+
+SELECT * FROM tbl_menu ;
+
+-- update
+-- 테이블에 기록된 컬럼의 값을 수정하는 구문이다.
+-- 테이블의 전체 행 갯수는 변화가 없다.
+SELECT
+	menu_code,
+	category_code
+FROM
+	tbl_menu 
+WHERE
+	menu_name = '바나나해장국';
+
+-- update 구문
+UPDATE tbl_menu 
+	SET menu_name = "델몬트바나나"
+WHERE 
+	menu_name = '바나나해장국';
+	
+SELECT
+	*
+FROM
+	tbl_menu
+WHERE 
+	menu_name = '델몬트바나나';
+
+-- update 조건에서 subquery 사용하기
+UPDATE tbl_menu 
+	SET category_code = 6
+WHERE
+	menu_price in (SELECT 
+					menu_price
+					FROM
+						(SELECT 
+							*
+						FROM
+							tbl_menu) AS a
+					WHERE	
+						menu_name = '델몬트바나나');
