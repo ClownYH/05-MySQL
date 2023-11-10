@@ -1,0 +1,19 @@
+/* drop */
+-- 테이블을 삭제하기 위한 구문
+-- IF EXISTS를 적용하면 존재하지 않는 테이블 삭제 구문이라도 에러가 발생하지 않는다.
+
+-- drop [TEMPORARY] table [IF EXISTS] table_name [, table_name]....
+
+-- tb3 테이블 생성
+CREATE TABLE IF NOT EXISTS tb3(
+	pk int AUTO_INCREMENT PRIMARY key,
+	fk int,
+	col1 varchar(255),
+	CHECK(col1 IN ('Y', 'N'))
+)ENGINE = innodb;
+
+DROP TABLE IF EXISTS tb3;
+-- 삭제하고자 하는 테이블이 없는 경우 아래의 코드는 에러를 발생시킨다.
+-- 보통 테이블 생성 구문은 여러 개의 테이블을 한번에 생성하기 때문에 아래와 같은 오류가 발생되면 열 받는다.
+DROP TABLE tb3;
+SHOW TABLES;
