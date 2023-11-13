@@ -21,6 +21,42 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"mysql8-18ba9466fd7-7fa2b2a98b5e1770": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "실습커넥션",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18bc88a4e06-800000524c2d52e": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "192.168.0.18",
+			"save-password": true,
+			"configuration": {
+				"host": "192.168.0.18",
+				"port": "3306",
+				"url": "jdbc:mysql://192.168.0.18:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
