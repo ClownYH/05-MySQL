@@ -78,6 +78,27 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"mysql8-18bcc723a6f-204afed72ff44dca": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "학원db",
+			"save-password": true,
+			"configuration": {
+				"host": "112.222.187.244",
+				"port": "3306",
+				"url": "jdbc:mysql://112.222.187.244:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {

@@ -46,7 +46,7 @@
 		"mysql8-18bc75e78ea-3d9c081d1dc2e088": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "192.168.0.18",
+			"name": "culture",
 			"save-password": true,
 			"configuration": {
 				"host": "192.168.0.18",
@@ -55,6 +55,48 @@
 				"configurationType": "MANUAL",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
 				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18bc7ac2559-3d6eabb788cae2a": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "yyc",
+			"save-password": true,
+			"configuration": {
+				"host": "192.168.0.18",
+				"port": "3306",
+				"url": "jdbc:mysql://192.168.0.18:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18bcc723a6f-204afed72ff44dca": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "112.222.187.2244",
+			"save-password": true,
+			"configuration": {
+				"host": "112.222.187.2244",
+				"port": "3306",
+				"url": "jdbc:mysql://112.222.187.2244:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
 				"auth-model": "native"
 			}
 		}
