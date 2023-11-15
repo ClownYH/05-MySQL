@@ -174,3 +174,123 @@ Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL synta
 > Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.102.202311051706]
 2023-11-15 12:01:59.081 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
 > Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.102.202311051706]
+2023-11-15 15:45:19.950 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-11-15 15:45:27.426 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-11-15 15:45:32.998 - Execution context closed (employee, 8)
+2023-11-15 15:45:33.015 - No execution context within database instance
+2023-11-15 15:45:33.015 - No execution context within database instance
+2023-11-15 15:45:33.015 - No execution context within database instance
+2023-11-15 15:45:33.016 - No execution context within database instance
+2023-11-15 15:45:33.016 - No execution context within database instance
+2023-11-15 15:45:33.016 - No execution context within database instance
+2023-11-15 15:45:33.017 - No execution context within database instance
+2023-11-15 15:45:33.017 - No execution context within database instance
+2023-11-15 15:45:33.017 - No execution context within database instance
+2023-11-15 15:45:33.017 - No execution context within database instance
+2023-11-15 15:45:33.017 - No execution context within database instance
+2023-11-15 15:45:33.017 - No execution context within database instance
+2023-11-15 15:45:33.018 - No execution context within database instance
+2023-11-15 15:45:33.018 - No execution context within database instance
+2023-11-15 15:45:33.018 - No execution context within database instance
+2023-11-15 15:45:33.018 - No execution context within database instance
+2023-11-15 15:45:33.018 - No execution context within database instance
+2023-11-15 15:45:33.019 - No execution context within database instance
+2023-11-15 15:45:33.020 - No execution context within database instance
+2023-11-15 15:45:33.020 - No execution context within database instance
+2023-11-15 15:45:33.021 - No execution context within database instance
+2023-11-15 15:45:33.021 - No execution context within database instance
+2023-11-15 15:45:33.021 - No execution context within database instance
+2023-11-15 15:45:33.021 - No execution context within database instance
+2023-11-15 15:45:33.021 - No execution context within database instance
+2023-11-15 15:45:33.022 - No execution context within database instance
+2023-11-15 15:45:33.022 - No execution context within database instance
+2023-11-15 15:45:33.022 - No execution context within database instance
+2023-11-15 15:45:33.022 - No execution context within database instance
+2023-11-15 15:45:33.022 - No execution context within database instance
+2023-11-15 15:45:33.023 - No execution context within database instance
+2023-11-15 15:45:33.023 - No execution context within database instance
+2023-11-15 15:45:33.023 - No execution context within database instance
+2023-11-15 15:45:33.023 - No execution context within database instance
+2023-11-15 15:45:33.023 - No execution context within database instance
+2023-11-15 15:45:33.023 - No execution context within database instance
+2023-11-15 15:45:33.049 - Execution context closed (employee, 9)
+2023-11-15 15:45:33.102 - Execution context closed (employee, 10)
+2023-11-15 15:45:33.102 - Disconnected (mysql8-18bd0b57c43-6b6e95c0b3dcdc1f)
+2023-11-15 15:45:33.180 - Connect with 'employee' (mysql8-18bd0b57c43-6b6e95c0b3dcdc1f)
+2023-11-15 15:45:33.181 - Execution context opened (employee; Main; 11)
+2023-11-15 15:45:33.188 - Execution context opened (employee; Metadata; 12)
+2023-11-15 15:45:33.230 - Connected (mysql8-18bd0b57c43-6b6e95c0b3dcdc1f, MySQL Connector/J [mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)])
+2023-11-15 15:45:33.244 - Execution context opened (employee; SQLEditor <employee 테이블 생성.sql>; 13)
+2023-11-15 15:45:48.933 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-11-15 16:39:06.592 - Execution context opened (employee; SQLEditor <Script-2.sql>; 14)
+2023-11-15 17:41:06.237 - SQL Error [1111] [HY000]: Invalid use of group function
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1111] [HY000]: Invalid use of group function
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:583)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:492)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:499)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:947)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4057)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5164)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Invalid use of group function
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-11-15 17:47:42.181 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+
+Error position: line: 3
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:583)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:492)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:499)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:947)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4057)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5164)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 4
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+2023-11-15 18:01:33.251 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:583)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:492)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:499)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:947)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4057)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5164)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
