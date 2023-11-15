@@ -82,12 +82,12 @@
 		"mysql8-18bcc723a6f-204afed72ff44dca": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "112.222.187.2244",
+			"name": "학원db",
 			"save-password": true,
 			"configuration": {
-				"host": "112.222.187.2244",
+				"host": "112.222.187.244",
 				"port": "3306",
-				"url": "jdbc:mysql://112.222.187.2244:3306/",
+				"url": "jdbc:mysql://112.222.187.244:3306/",
 				"configurationType": "MANUAL",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
 				"type": "dev",
@@ -97,6 +97,22 @@
 					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
 					"allowPublicKeyRetrieval": "true"
 				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18bcd18afca-7eb3a345fa0473f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "bjkdb",
+			"save-password": true,
+			"configuration": {
+				"host": "112.222.187.244",
+				"port": "3306",
+				"database": "bjkdb",
+				"url": "jdbc:mysql://112.222.187.244:3306/bjkdb",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
 				"auth-model": "native"
 			}
 		}
