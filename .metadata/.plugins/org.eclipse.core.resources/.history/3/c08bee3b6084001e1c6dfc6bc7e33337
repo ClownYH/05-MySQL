@@ -35,15 +35,3 @@ SELECT * FROM location ;
 SELECT * FROM nation ;
 
 SELECT * FROM sal_grade ;
-
-SELECT
-*
-FROM 
-employee 
-WHERE
-emp_id = '210'
-AND
-emp_name = ''
-OR 1=1
-AND
-emp_id = '200';
