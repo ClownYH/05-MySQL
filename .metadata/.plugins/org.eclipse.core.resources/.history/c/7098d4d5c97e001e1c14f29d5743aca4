@@ -1,4 +1,0 @@
-/* Transaction */
-
--- autoCommit을 활성화 시킴
-SET autocommit = 1;
