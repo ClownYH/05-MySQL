@@ -88,3 +88,9 @@ Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.int
 > Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.102.202311051706]
 2023-11-17 12:17:37.866 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
 2023-11-17 17:29:25.236 - Execution context opened (yyc; SQLEditor <Script-4.sql>; 6)
+2023-11-17 18:29:54.992 - Execution context closed (yyc, 2)
+2023-11-17 18:29:55.024 - Execution context closed (실습커넥션, 5)
+2023-11-17 18:29:55.063 - Execution context closed (yyc, 6)
+2023-11-17 18:29:55.266 - DBeaver is stopping
+2023-11-17 18:29:55.267 - Stop instance server
+2023-11-17 18:29:56.269 - DBeaver shutdown completed
