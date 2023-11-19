@@ -42,6 +42,50 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"mysql8-18bd2e07b1e-7cc4fae6874d9bd9": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "employee",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "employee",
+				"url": "jdbc:mysql://localhost:3306/employee",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18bdcee898e-43bd04617b1b8d07": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "yycdb",
+			"save-password": true,
+			"configuration": {
+				"host": "112.222.187.244",
+				"port": "3306",
+				"database": "yycdb",
+				"url": "jdbc:mysql://112.222.187.244:3306/yycdb",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {

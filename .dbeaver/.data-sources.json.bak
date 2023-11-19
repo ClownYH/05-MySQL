@@ -43,18 +43,25 @@
 				"auth-model": "native"
 			}
 		},
-		"mysql8-18bc88a4e06-800000524c2d52e": {
+		"mysql8-18bd2e07b1e-7cc4fae6874d9bd9": {
 			"provider": "mysql",
 			"driver": "mysql8",
-			"name": "192.168.0.18",
+			"name": "employee",
 			"save-password": true,
 			"configuration": {
-				"host": "192.168.0.18",
+				"host": "localhost",
 				"port": "3306",
-				"url": "jdbc:mysql://192.168.0.18:3306/",
+				"database": "employee",
+				"url": "jdbc:mysql://localhost:3306/employee",
 				"configurationType": "MANUAL",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
 				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
 				"auth-model": "native"
 			}
 		}
