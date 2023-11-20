@@ -150,7 +150,7 @@
       <tags>categoryTag:&#xc77c;&#xbc18;</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_b_wfMH1KEe6fze8pMVC3eg" elementId="org.eclipse.ui.editorss" selectedElement="_b_wfMX1KEe6fze8pMVC3eg">
-      <children xsi:type="basic:PartStack" xmi:id="_b_wfMX1KEe6fze8pMVC3eg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_37p-AIc9Ee6dpv7BIihttQ">
+      <children xsi:type="basic:PartStack" xmi:id="_b_wfMX1KEe6fze8pMVC3eg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_97prYITpEe6G78iUND90UA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
@@ -167,10 +167,12 @@
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_97prYITpEe6G78iUND90UA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;&#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;> Script-3" iconURI="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-3.sql&quot; partName=&quot;&amp;lt;&#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;&amp;gt; Script-3&quot; title=&quot;&amp;lt;&#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;&amp;gt; Script-3&quot; tooltip=&quot;Script: /General/Scripts/Script-3.sql&amp;#x0A;Connection: &#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;&amp;#x0A;Type: MySQL&amp;#x0A;URL: jdbc:mysql://localhost:3306/&amp;#x0A;Database: menudb&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/General/Scripts/Script-3.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;103&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;Script-3.sql&quot; partName=&quot;&amp;lt;&#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;&amp;gt; Script-3&quot; title=&quot;&amp;lt;&#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;&amp;gt; Script-3&quot; tooltip=&quot;Script: /General/Scripts/Script-3.sql&amp;#x0A;Connection: &#xc2e4;&#xc2b5;&#xcee4;&#xb125;&#xc158;&amp;#x0A;Type: MySQL&amp;#x0A;URL: jdbc:mysql://localhost:3306/&amp;#x0A;Database: menudb&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/General/Scripts/Script-3.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;19&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_ajW7wIUjEe6G78iUND90UA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="&lt;yyc> YYC &#xc8fc;&#xb9d0; &#xacfc;&#xc81c; &#xd14c;&#xc774;&#xbe14;" iconURI="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.jkiss.dbeaver.ui.editors.sql.SQLEditor&quot; name=&quot;YYC &#xc8fc;&#xb9d0; &#xacfc;&#xc81c; &#xd14c;&#xc774;&#xbe14;.sql&quot; partName=&quot;&amp;lt;yyc&amp;gt; YYC &#xc8fc;&#xb9d0; &#xacfc;&#xc81c; &#xd14c;&#xc774;&#xbe14;&quot; title=&quot;&amp;lt;yyc&amp;gt; YYC &#xc8fc;&#xb9d0; &#xacfc;&#xc81c; &#xd14c;&#xc774;&#xbe14;&quot; tooltip=&quot;Script: /General/Scripts/YYC &#xc8fc;&#xb9d0; &#xacfc;&#xc81c; &#xd14c;&#xc774;&#xbe14;.sql&amp;#x0A;Connection: yyc&amp;#x0A;Type: MySQL&amp;#x0A;URL: jdbc:mysql://192.168.0.18:3306/&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/General/Scripts/YYC &#xc8fc;&#xb9d0; &#xacfc;&#xc81c; &#xd14c;&#xc774;&#xbe14;.sql&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;226&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -189,7 +191,6 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.jkiss.dbeaver.ui.editors.sql.SQLEditor</tags>
-          <tags>active</tags>
           <tags>activeOnClose</tags>
         </children>
       </children>
@@ -200,7 +201,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Database</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_cBF78H1KEe6fze8pMVC3eg" elementId="org.jkiss.dbeaver.core.databaseNavigator">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -1883,7 +1883,7 @@
   <addons xmi:id="_bvZvEn1KEe6fze8pMVC3eg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_bvZvE31KEe6fze8pMVC3eg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_bvkuIH1KEe6fze8pMVC3eg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_6Ff3MYdwEe6jxIzgMi7a0w" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_bv6FUH1KEe6fze8pMVC3eg" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_bv6FUX1KEe6fze8pMVC3eg" elementId="org.eclipse.ui.category.views" name="&#xbcf4;&#xae30;" description="&#xbcf4;&#xae30;&#xb97c; &#xc5f4;&#xae30; &#xc704;&#xd55c; &#xba85;&#xb839;&#xc785;&#xb2c8;&#xb2e4;."/>
