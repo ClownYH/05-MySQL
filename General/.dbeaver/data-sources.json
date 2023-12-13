@@ -137,6 +137,28 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"mysql8-18c6218ad26-6f7eb8297ac0c76c": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "bunnyroom",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "bunnyroom",
+				"url": "jdbc:mysql://localhost:3306/bunnyroom",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
