@@ -1,22 +1,22 @@
-2023-12-14 17:22:07.772 - DBeaver 23.3.0.202312031432 is starting
-2023-12-14 17:22:07.773 - OS: Windows 10 10.0 (amd64)
-2023-12-14 17:22:07.774 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2023-12-14 17:22:07.774 - Install path: 'C:\Users\Class01\AppData\Local\DBeaver'
-2023-12-14 17:22:07.774 - Instance path: 'file:/C:/dev/05-MySQL/'
-2023-12-14 17:22:07.774 - Memory available 64Mb/1024Mb
-2023-12-14 17:22:07.783 - Create display
-2023-12-14 17:22:07.877 - Initializing DBeaver 23.3.0
-2023-12-14 17:22:07.878 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.3.0.202312031432
-2023-12-14 17:22:07.879 - Initialize desktop platform...
-2023-12-14 17:22:08.023 - BounceCastle bundle found. Use JCE provider BC
+2023-12-18 18:25:00.966 - DBeaver 23.3.0.202312031432 is starting
+2023-12-18 18:25:00.967 - OS: Windows 10 10.0 (amd64)
+2023-12-18 18:25:00.967 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2023-12-18 18:25:00.968 - Install path: 'C:\Users\Class01\AppData\Local\DBeaver'
+2023-12-18 18:25:00.968 - Instance path: 'file:/C:/dev/05-MySQL/'
+2023-12-18 18:25:00.968 - Memory available 64Mb/1024Mb
+2023-12-18 18:25:00.977 - Create display
+2023-12-18 18:25:01.075 - Initializing DBeaver 23.3.0
+2023-12-18 18:25:01.076 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 23.3.0.202312031432
+2023-12-18 18:25:01.077 - Initialize desktop platform...
+2023-12-18 18:25:01.227 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.100.v20230717-1727]
 > Start Core Resource Management [org.eclipse.core.resources 3.19.100.v20230814-1312]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.100.v20230726-0617]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.120.202312031432]
-2023-12-14 17:22:08.291 - Initialize base platform...
-2023-12-14 17:22:08.311 - Platform initialized (432ms)
-2023-12-14 17:22:08.351 - Starting instance server at http://localhost:52029
-2023-12-14 17:22:08.358 - Run workbench
+2023-12-18 18:25:01.523 - Initialize base platform...
+2023-12-18 18:25:01.548 - Platform initialized (471ms)
+2023-12-18 18:25:01.595 - Starting instance server at http://localhost:53899
+2023-12-18 18:25:01.602 - Run workbench
 > Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.135.202312031432]
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.100.v20230727-0604]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.100.v20230708-0809]
@@ -35,16 +35,16 @@ Warning: NLS unused message: Workbench_zoomChangedRestart in: org.eclipse.ui.int
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.100.v20230727-0604]
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
 Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
-2023-12-14 17:22:09.915 - Configure workbench window
+2023-12-18 18:25:03.356 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.110.202312031432]
-2023-12-14 17:22:10.054 - Total database drivers: 108 (108)
+2023-12-18 18:25:03.503 - Total database drivers: 108 (108)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.100.v20230726-0617]
-2023-12-14 17:22:10.137 - Create actions
-2023-12-14 17:22:10.143 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2023-12-14 17:22:10.144 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2023-12-14 17:22:10.144 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2023-12-14 17:22:10.580 - Initialize workbench window
-2023-12-14 17:22:10.587 - Finish initialization
+2023-12-18 18:25:03.594 - Create actions
+2023-12-18 18:25:03.600 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-12-18 18:25:03.601 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-12-18 18:25:03.602 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-12-18 18:25:04.020 - Initialize workbench window
+2023-12-18 18:25:04.026 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.0.v20230821-1342]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.100.v20230821-0745]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.120.202312031432]
@@ -64,22 +64,22 @@ Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui
 Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
 Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.100.v20230731-1425]
-2023-12-14 17:22:13.283 - Connect with 'bunnyroom' (mysql8-18c6218ad26-6f7eb8297ac0c76c)
+2023-12-18 18:25:06.424 - Connect with 'bunnyroom' (mysql8-18c6218ad26-6f7eb8297ac0c76c)
 > Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.13.202312031432]
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.205.202312031432]
-2023-12-14 17:22:13.323 - Execution context opened (bunnyroom; Main; 0)
+2023-12-18 18:25:06.453 - Execution context opened (bunnyroom; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.144.202312031432]
-2023-12-14 17:22:13.549 - Execution context opened (bunnyroom; Metadata; 1)
-2023-12-14 17:22:13.626 - Connected (mysql8-18c6218ad26-6f7eb8297ac0c76c, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2023-12-14 17:22:13.630 - Execution context opened (bunnyroom; SQLEditor <버니룸 테이블 생성 스크립트.sql>; 2)
-> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.98.202312031432]
-> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.112.202312031432]
-> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.98.202312031432]
+2023-12-18 18:25:06.658 - Execution context opened (bunnyroom; Metadata; 1)
+2023-12-18 18:25:06.745 - Connected (mysql8-18c6218ad26-6f7eb8297ac0c76c, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2023-12-18 18:25:06.753 - Execution context opened (bunnyroom; SQLEditor <Script-6.sql>; 2)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.15.202312031432]
 > Start DBeaver SQL Server Model [org.jkiss.dbeaver.ext.mssql 1.0.214.202312031432]
 > Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.169.202312031432]
 > Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.206.202312031432]
-2023-12-14 17:22:51.312 - Execution context closed (bunnyroom, 2)
-2023-12-14 17:22:51.614 - DBeaver is stopping
-2023-12-14 17:22:51.616 - Stop instance server
-2023-12-14 17:22:52.616 - DBeaver shutdown completed
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.98.202312031432]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.112.202312031432]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.98.202312031432]
+2023-12-18 19:22:24.681 - Execution context closed (bunnyroom, 2)
+2023-12-18 19:22:24.912 - DBeaver is stopping
+2023-12-18 19:22:24.914 - Stop instance server
+2023-12-18 19:22:25.914 - DBeaver shutdown completed
