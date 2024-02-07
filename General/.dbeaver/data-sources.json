@@ -181,6 +181,27 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"mysql8-18d815a0247-557bda772626c442": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "gurodb",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "gurodb",
+				"url": "jdbc:mysql://localhost:3306/gurodb",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
