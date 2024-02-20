@@ -202,6 +202,28 @@
 				},
 				"auth-model": "native"
 			}
+		},
+		"mysql8-18dc5b72105-42996d82399e600b": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "stocklog",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "stocklog",
+				"url": "jdbc:mysql://localhost:3306/stocklog",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.2",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {

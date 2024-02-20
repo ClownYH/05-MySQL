@@ -1,20 +1,20 @@
-2024-02-07 10:12:12.577 - DBeaver 23.3.1.202312241705 is starting
-2024-02-07 10:12:12.578 - OS: Windows 10 10.0 (amd64)
-2024-02-07 10:12:12.579 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
-2024-02-07 10:12:12.579 - Install path: 'C:\Users\Class01\AppData\Local\DBeaver'
-2024-02-07 10:12:12.579 - Instance path: 'file:/C:/dev/05-MySQL/'
-2024-02-07 10:12:12.582 - Memory available 64Mb/1024Mb
-2024-02-07 10:12:12.603 - Create display
-2024-02-07 10:12:12.774 - Initialize desktop platform...
-2024-02-07 10:12:12.938 - BounceCastle bundle found. Use JCE provider BC
+2024-02-20 17:49:25.070 - DBeaver 23.3.1.202312241705 is starting
+2024-02-20 17:49:25.071 - OS: Windows 10 10.0 (amd64)
+2024-02-20 17:49:25.071 - Java version: 17.0.6 by Eclipse Adoptium (64bit)
+2024-02-20 17:49:25.072 - Install path: 'C:\Users\Class01\AppData\Local\DBeaver'
+2024-02-20 17:49:25.072 - Instance path: 'file:/C:/dev/05-MySQL/'
+2024-02-20 17:49:25.074 - Memory available 64Mb/1024Mb
+2024-02-20 17:49:25.086 - Create display
+2024-02-20 17:49:25.213 - Initialize desktop platform...
+2024-02-20 17:49:25.377 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.10.200.v20231102-0934]
 > Start Core Resource Management [org.eclipse.core.resources 3.20.0.v20231102-0934]
 > Start 팀 지원 핵심 [org.eclipse.team.core 3.10.200.v20231106-1240]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.121.202312241705]
-2024-02-07 10:12:13.392 - Initialize base platform...
-2024-02-07 10:12:13.424 - Platform initialized (649ms)
-2024-02-07 10:12:13.476 - Starting instance server at http://localhost:50410
-2024-02-07 10:12:13.488 - Run workbench
+2024-02-20 17:49:25.777 - Initialize base platform...
+2024-02-20 17:49:25.804 - Platform initialized (591ms)
+2024-02-20 17:49:25.858 - Starting instance server at http://localhost:54952
+2024-02-20 17:49:25.868 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.200.v20231030-2045]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.4.200.v20231103-2012]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.200.v20231030-2045]
@@ -32,262 +32,179 @@ Warning: NLS unused message: Workbench_zoomChangedRestart in: org.eclipse.ui.int
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.200.v20231025-0632]
 > Start jna [com.sun.jna 5.13.0.v20230812-1000]
 Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
-2024-02-07 10:12:15.821 - Configure workbench window
+2024-02-20 17:49:27.977 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.111.202312241705]
-2024-02-07 10:12:16.006 - Total database drivers: 107 (107)
+2024-02-20 17:49:28.165 - Total database drivers: 107 (107)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.200.v20231106-1240]
-2024-02-07 10:12:16.135 - Create actions
-2024-02-07 10:12:16.146 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-02-07 10:12:16.147 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-02-07 10:12:16.147 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2024-02-07 10:12:16.781 - Initialize workbench window
-2024-02-07 10:12:16.788 - Finish initialization
+2024-02-20 17:49:28.281 - Create actions
+2024-02-20 17:49:28.293 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-02-20 17:49:28.294 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-02-20 17:49:28.295 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2024-02-20 17:49:28.848 - Initialize workbench window
+2024-02-20 17:49:28.854 - Finish initialization
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.17.100.v20231106-1600]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.17.200.v20231106-1600]
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.121.202312241705]
-> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
 Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.121.202312241705]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.97.202312241705]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.200.v20231106-1240]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.158.202312241705]
 > Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.127.202312241705]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.14.100.202311222042]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.16.0.202311222042]
 > Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.81.202312241705]
 > Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.81.202312241705]
-2024-02-07 10:12:18.432 - Connect with '실습커넥션' (mysql8-18ba8fe8326-2adcec670c17718c)
-> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.14.202312241705]
-> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.206.202312241705]
-2024-02-07 10:12:18.490 - Execution context opened (실습커넥션; Main; 0)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.145.202312241705]
-2024-02-07 10:12:18.786 - Execution context opened (실습커넥션; Metadata; 1)
-2024-02-07 10:12:18.887 - Connected (mysql8-18ba8fe8326-2adcec670c17718c, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-02-07 10:12:20.906 - Open [https://dbeaver.io/product/version.xml]
-> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.97.202312241705]
-> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.300.v20231106-1240]
 > Start 콘솔 [org.eclipse.ui.console 3.13.100.v20230914-0751]
 Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
 Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
 > Start 디버그 핵심 [org.eclipse.debug.core 3.21.200.v20231021-1513]
+2024-02-20 17:49:33.481 - Connect with '학원db' (mysql8-18bcc723a6f-204afed72ff44dca)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.14.202312241705]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.206.202312241705]
+2024-02-20 17:49:33.520 - Execution context opened (학원db; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.145.202312241705]
+2024-02-20 17:49:38.195 - Connect with 'bunnyroom' (mysql8-18c6218ad26-6f7eb8297ac0c76c)
+2024-02-20 17:49:38.198 - Execution context opened (bunnyroom; Main; 1)
+2024-02-20 17:49:38.363 - Execution context opened (bunnyroom; Metadata; 2)
+2024-02-20 17:49:38.547 - Connected (mysql8-18c6218ad26-6f7eb8297ac0c76c, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.99.202312241705]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.113.202312241705]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.99.202312241705]
-2024-02-07 10:12:27.479 - Connect with 'localhost' (mysql8-18ba8fda686-5941c008708efbcd)
-2024-02-07 10:12:27.481 - Execution context opened (localhost; Main; 2)
-2024-02-07 10:12:27.511 - Execution context opened (localhost; Metadata; 3)
-2024-02-07 10:12:27.543 - Connected (mysql8-18ba8fda686-5941c008708efbcd, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-02-07 10:12:27.749 - Execution context opened (localhost; SQLEditor <버니룸 생성 스크립트.sql>; 4)
+2024-02-20 17:49:44.881 - Connect with 'bunnyroom 2' (mysql8-18c89e75609-74897c46972cb60b)
+2024-02-20 17:49:44.883 - Execution context opened (bunnyroom 2; Main; 3)
+2024-02-20 17:49:44.953 - Execution context opened (bunnyroom 2; Metadata; 4)
+2024-02-20 17:49:45.067 - Connected (mysql8-18c89e75609-74897c46972cb60b, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-02-20 17:49:45.648 - Execution context opened (bunnyroom 2; SQLEditor <버니룸 테이블 생성 스크립트.sql>; 5)
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.16.202312241705]
+2024-02-20 17:49:45.908 - Connect with 'localhost' (mysql8-18ba8fda686-5941c008708efbcd)
+2024-02-20 17:49:45.909 - Execution context opened (localhost; Main; 6)
+2024-02-20 17:49:45.979 - Execution context opened (localhost; Metadata; 7)
 > Start DBeaver SQL Server Model [org.jkiss.dbeaver.ext.mssql 1.0.215.202312241705]
+2024-02-20 17:49:46.015 - Connected (mysql8-18ba8fda686-5941c008708efbcd, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-02-20 17:49:46.059 - Execution context opened (localhost; SQLEditor <버니룸 생성 스크립트.sql>; 8)
 > Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.170.202312241705]
 > Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.207.202312241705]
-2024-02-07 10:12:31.711 - Execution context opened (실습커넥션; SQLEditor <Console>; 5)
-2024-02-07 10:14:57.350 - Table 'columns' not found in metadata catalog
-2024-02-07 10:14:57.350 - Table 'columns' not found in metadata catalog
-2024-02-07 10:14:57.350 - Table 'columns' not found in metadata catalog
-2024-02-07 10:15:08.132 - Table 'columns' not found in metadata catalog
-2024-02-07 10:15:08.133 - Table 'columns' not found in metadata catalog
-2024-02-07 10:15:08.133 - Table 'columns' not found in metadata catalog
-2024-02-07 10:58:27.217 - Execution context closed (실습커넥션, 5)
+2024-02-20 17:49:54.000 - Connect timed out
+java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(Unknown Source)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:459)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:99)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:151)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1297)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1145)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:964)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:104)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:115)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:87)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2486)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:151)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:226)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:91)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:88)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:72)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-02-20 17:51:55.900 - SQL Error [1146] [42S02]: Table 'stocklog.user' doesn't exist
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1146] [42S02]: Table 'stocklog.user' doesn't exist
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:962)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4123)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'stocklog.user' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
 > Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.112.202312241705]
-2024-02-07 10:59:23.656 - Execution context opened (localhost; SQLEditor <Console>; 6)
-2024-02-07 10:59:30.894 - Execution context opened (localhost; SQLEditor <Script-7.sql>; 7)
-> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.105.202312241705]
-2024-02-07 11:01:01.767 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.105.202312241705]
-2024-02-07 11:01:11.037 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-02-07 11:07:53.186 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GRANT FOR 'guro'@'%'' at line 1
-
-Error position:
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GRANT FOR 'guro'@'%'' at line 1
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:962)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4123)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
+2024-02-20 17:52:09.798 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2024-02-20 17:52:23.733 - Connect with 'jdbc:mysql://localhost:3306/stocklog' (mysql8-18dc5b75817-496443cf372c7771)
+2024-02-20 17:52:23.735 - Execution context opened (jdbc:mysql://localhost:3306/stocklog; Main; 9)
+2024-02-20 17:52:23.807 - Public Key Retrieval is not allowed
+com.mysql.cj.exceptions.UnableToConnectException: Public Key Retrieval is not allowed
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:131)
+	at com.mysql.cj.protocol.a.authentication.CachingSha2PasswordPlugin.nextAuthenticationStep(CachingSha2PasswordPlugin.java:49)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:446)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:215)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1428)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:83)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:221)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.openConnection(MySQLDataSource.java:459)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:102)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:119)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:99)
+	at org.jkiss.dbeaver.ext.mysql.model.MySQLDataSource.<init>(MySQLDataSource.java:94)
+	at org.jkiss.dbeaver.ext.mysql.MySQLDataSourceProvider.openDataSource(MySQLDataSourceProvider.java:151)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1297)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1145)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:964)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:77)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectionTestJob.run(ConnectionTestJob.java:103)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GRANT FOR 'guro'@'%'' at line 1
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-02-07 11:15:54.624 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-02-07 11:16:16.414 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2024-02-07 11:16:28.800 - Connect with 'jdbc:mysql://localhost:3306/gurodb' (mysql8-18d815a3364-ed78320ebad6ce6)
-2024-02-07 11:16:28.801 - Execution context opened (jdbc:mysql://localhost:3306/gurodb; Main; 8)
-2024-02-07 11:16:28.838 - Connected (mysql8-18d815a3364-ed78320ebad6ce6, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-02-07 11:16:28.851 - Execution context closed (jdbc:mysql://localhost:3306/gurodb, 8)
-2024-02-07 11:16:28.851 - Disconnected (mysql8-18d815a3364-ed78320ebad6ce6)
-2024-02-07 11:16:37.248 - Connect with 'jdbc:mysql://localhost:3306/gurodb' (mysql8-18d815a5464-78b19020a9ac1c80)
-2024-02-07 11:16:37.248 - Execution context opened (jdbc:mysql://localhost:3306/gurodb; Main; 9)
-2024-02-07 11:16:37.276 - Connected (mysql8-18d815a5464-78b19020a9ac1c80, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-02-07 11:16:37.288 - Execution context closed (jdbc:mysql://localhost:3306/gurodb, 9)
-2024-02-07 11:16:37.288 - Disconnected (mysql8-18d815a5464-78b19020a9ac1c80)
-2024-02-07 12:09:47.844 - Connect with 'gurodb' (mysql8-18d815a0247-557bda772626c442)
-2024-02-07 12:09:47.845 - Execution context opened (gurodb; Main; 10)
-2024-02-07 12:09:47.854 - Execution context opened (gurodb; Metadata; 11)
-2024-02-07 12:09:47.877 - Connected (mysql8-18d815a0247-557bda772626c442, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2024-02-07 12:09:54.607 - Execution context opened (gurodb; SQLEditor <Script-8.sql>; 12)
-2024-02-07 15:12:52.207 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:962)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4123)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-02-07 15:12:53.481 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:962)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4123)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-02-07 15:12:55.983 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-2024-02-07 15:12:57.720 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:238)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 7 more
-2024-02-07 15:13:00.236 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-
-Error position: line: 1
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:962)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4123)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop table if exists tbl_menu
-    drop table if exists tbl_order
-    drop tabl' at line 2
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
-2024-02-07 15:13:12.473 - SQL Error [3730] [HY000]: Cannot drop table 'tbl_order' referenced by a foreign key constraint 'FK52nnpg56ae2mqehvitq45ragx' on table 'tbl_payments'.
-org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3730] [HY000]: Cannot drop table 'tbl_order' referenced by a foreign key constraint 'FK52nnpg56ae2mqehvitq45ragx' on table 'tbl_payments'.
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:600)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$2(SQLQueryJob.java:503)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:510)
-	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:962)
-	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:4123)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:123)
-	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:190)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:121)
-	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:5148)
-	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.sql.SQLException: Cannot drop table 'tbl_order' referenced by a foreign key constraint 'FK52nnpg56ae2mqehvitq45ragx' on table 'tbl_payments'.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:130)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:767)
-	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:652)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:330)
-	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
-	... 12 more
+2024-02-20 17:52:35.259 - Connect with 'jdbc:mysql://localhost:3306/stocklog' (mysql8-18dc5b7852f-172b3e829e0fe11a)
+2024-02-20 17:52:35.260 - Execution context opened (jdbc:mysql://localhost:3306/stocklog; Main; 10)
+2024-02-20 17:52:35.311 - Connected (mysql8-18dc5b7852f-172b3e829e0fe11a, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2024-02-20 17:52:35.332 - Execution context closed (jdbc:mysql://localhost:3306/stocklog, 10)
+2024-02-20 17:52:35.333 - Disconnected (mysql8-18dc5b7852f-172b3e829e0fe11a)
+2024-02-20 18:03:33.783 - Execution context closed (bunnyroom 2, 5)
+2024-02-20 18:03:33.894 - Execution context closed (localhost, 8)
+2024-02-20 18:03:34.244 - DBeaver is stopping
+2024-02-20 18:03:34.247 - Stop instance server
+2024-02-20 18:03:35.257 - DBeaver shutdown completed
